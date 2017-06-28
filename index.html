@@ -1,129 +1,385 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>BioPureMax</title>
-      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-      <link rel="stylesheet" type="text/css" href="css.css">
+   <head>
+      <title>BioPureMax&trade;</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-      
-</head>
-<body>
-	<div class="container">
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.1/jquery.fancybox.pack.js" type="text/javascript"></script>
+      <link rel="stylesheet" href="http://fancyapps.com/fancybox/source/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+   </head>
+   <body>
+      <div class="container">
+         <!-- start header	-->
+         <header class="main-header">
+            <a class="site-logo" href="#">
+            <img src="images/logo.png" alt="">
+            </a>
+            <ul class="nav">
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Our Technology</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Project Reference</a></li>
+               <li><a href="#">News & Events</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+         </header>
+      </div>
+      <nav id="menu">
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Technology</a></li>
+            <li><a href="#">Project Reference</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">News & Events</a></li>
+            <li><a href="#">Contact us</a></li>
+         </ul>
+      </nav>
+      <main id="panel">
+         <a href="#" class="toggle-button">
+         <span class="horizLineHamburgerButton"></span>
+         <span class="horizLineHamburgerButton"></span>
+         <span class="horizLineHamburgerButton"></span>
+         </a>
+      </main>
+      <!-- end header	-->
+      <section class="sec1">
+         <div class="background-sec-main background-section">
+            <h1 class="first-title">Biopuremax&trade;</h1>
+            <h1 class="second-title">The Ultimate Pure Water System Solution</h1>
+            <div class="logo-slider"></div>
+            <div class="sliders">
+               <div class="slider1 slider">
+                  <h1>ESR</h1>
+                  <h2>Electrolytic Scale Reducation</h2>
+               </div>
+               <div class="slider2 slider">
+                  <h1>HOD</h1>
+                  <h2>Hydro Optical De-Chlorination</h2>
+               </div>
+               <div class="slider3 slider">
+                  <h1>HWS</h1>
+                  <h2>Hot Water Sanitizatinon<br/>Unlimitated periodic<br/>sanitization with<br/>80 -90 C Hot Water</h2>
+               </div>
+               <div class="slider4 slider">
+                  <h1>Biopuremax&trade;</h1>
+                  <h2>Green Technology<br/>No Media<br/>No regeneration<br/>No flushing</h2>
+               </div>
+               <div class="slider5 slider">
+                  <h1>CBR</h1>
+                  <h2>Continues<br/>Bioburden Reduction</h2>
+               </div>
+               <ul class="dots-sliders">
+                  <li class="slider-non-active slider-active" id="slide_1"></li>
+                  <li class="slider-non-active" id="slide_2"></li>
+                  <li class="slider-non-active" id="slide_3"></li>
+                  <li class="slider-non-active" id="slide_4"></li>
+                  <li class="slider-non-active" id="slide_5"></li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!--<div class="main-content container">
+         <h1>Main Headline</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis lobortis quam id venenatis. Integer eget pulvinar elit. Nunc magna mauris, sollicitudin eget ex quis, sagittis pretium velit. Morbi eget tortor vel massa iaculis tincidunt in eget nunc. Curabitur ornare faucibus fringilla. Praesent magna neque, auctor ac euismod sed, suscipit sed lorem. Curabitur euismod tellus et nibh condimentum mollis. Phasellus eleifend semper augue, ut feugiat orci fringilla non. Cras vel ultricies eros. Sed sed ante a ante gravida efficitur quis non dui. Fusce sagittis ullamcorper metus et tempus.</p>
+         </div>-->
+      <section class="technology">
+         <div class="row-sec2">
+            <div class="sec2-block">
+               <div class="item item1"></div>
+               <h1>Upto 30% saving on<br/>feed water.</h1>
+            </div>
+            <div class="sec2-block">
+               <div class="item item2"></div>
+               <h1>Actively reduces bacteria for<br/>very low levels in product<br/>water.</h1>
+            </div>
+            <div class="sec2-block">
+               <div class="item item3"></div>
+               <h1>Very simple, which makes<br/>the system very reliable.</h1>
+            </div>
+            <div class="sec2-block">
+               <div class="item item4"></div>
+               <h1>Low life cycle cost as a result of,<br/>low operational costs and low <br/>maintenance.</h1>
+            </div>
+         </div>
+      </section>
+      <section class="videoSection">
+         <div class="content-video-section">
+            <div class="delimiter"></div>
+            <h2>The Next Generation of Pharmaceutical<br/>
+               Preteatment Water Systems
+            </h2>
+         </div>
+         <div class="video-wrapper">
+            <div class="video-backgroud">
+               <a href="https://www.youtube.com/embed/5FuDq4R7-Uc" data-fancybox-type="iframe" class="fancyboxIframe play-button-anchor">
+                  <div class="play-button"></div>
+               </a>
+            </div>
+         </div>
+      </section>
+      <section class="all-in-one ">
+         <div class="delimiter"></div>
+         <h2><strong>Bringing Technology</strong> to Pharmaceutical Water</h2>
+         <p>Biopuremax&trade; is a company focused on water systems in the pharmaceutical and biotech<br/> industries.<br/>Biopuremax&trade; has over 20 years of experience in the design, installation, validation and operation<br/> of high quality Biopharmaceutical water systems.</p>
+         <div class="all-in-one-container">
+            <div class="all-in-one-block block1">
+               <div class="sub-block">
+                  <h1 class="number">1</h1>
+                  <h2><span>Size BPM per client needs</span><br/> Biopuremax™ unit can be designed to fit<br/>any water treatment system capacity</h2>
+               </div>
+            </div>
+            <div class="all-in-one-block block1">
+               <div class="sub-block">
+                  <h1 class="number">2</h1>
+                  <h2><span>Size BPM per client needs</span><br/>Biopuremax&trade; system is manufactured<br/>according to controlled procedures and after<br/>costumer design approval</h2>
+               </div>
+            </div>
+            <div class="all-in-one-block block1">
+               <div class="sub-block">
+                  <h1 class="number">3</h1>
+                  <h2><span>FAT</span><br/>Wet Factory Acceptance Test performed<br/>per a pre-approved protocol</h2>
+               </div>
+            </div>
+            <div class="all-in-one-block block1">
+               <div class="sub-block">
+                  <h1 class="number">4</h1>
+                  <h2><span>SITE INSTALLATION</span><br/>The system is based on pretreatment and<br/>production skids that can be quickly installed<br/>and connected to utilities</h2>
+               </div>
+            </div>
+            <div class="all-in-one-block block1">
+               <div class="sub-block">
+                  <h1 class="number">5</h1>
+                  <h2><span>SAT/COMMISSIONING</span><br/>Biopuremax&trade; systems are supplied with full<br/>aSAT/commissioning package</h2>
+               </div>
+            </div>
+            <div class="all-in-one-block block1">
+               <div class="sub-block">
+                  <h1 class="number">6</h1>
+                  <h2><span>IQ-OQ-DQ VALIDATION</span><br/>Full validation package for the system<br/>available</h2>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="slider-bottom">
+         <div class="section-slider-content">
+            <div class="delimiter"></div>
+            <h2><strong>Bringing Technology</strong> to Pharmaceutical Water</h2>
+            <p>Biopuremax&trade; is a company focused on water systems in the pharmaceutical and biotech<br/> industries.<br/>Biopuremax&trade; has over 20 years of experience in the design, installation, validation and operation<br/> of high quality Biopharmaceutical water systems.</p>
+         </div>
+        <div> 
+         <div id="slideshow">
+            <div id="buttons-sliders">
+               <div>
+                  <div class="left-arrow"></div>
+                  <div class="right-arrow"></div>
+                  <div class="squares-slider">
+                     <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                     </ul>
+                  </div>
+               </div>
+               <div>
+               </div>
+            </div>    
 
-		<!-- start header	-->
-		<header class="main-header">
-			<a class="site-logo" href="#">
-				<img src="logo.png" alt="">
-			</a>
-			
-			<ul class="nav">
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Our Technology</a></li>		
-				<li><a href="#">Services</a></li>		
-				<li><a href="#">Project Reference</a></li>		
-				<li><a href="#">News & Events</a></li>		
-				<li><a href="#">Contact Us</a></li>						
-			</ul>
-		</header>
-	</div>
-		<!-- end header	-->
 
-    <section class="sec1"> 
-      <div class="background-sec-main background-section">
-        <h1 class="first-title">Biopuremax™</h1>
-        <h1 class="second-title">The Ultimate Pure Water System Solution</h1>
 
-        <div class="sliders">
-         <div class="slider1 slider">
-           <h1>ESR</h1>
-           <h2>Electrolytic Scale Reducation</h2>
-        </div>
-        <div class="slider2 slider"><h1>HOD</h1><h2>Hydro Optical De-Chlorination</h2></div>
-        <div class="slider3 slider"><h1>HWS</h1><h2>Hot Water Sanitizatinon<br/>Unlimitated periodic<br/>sanitization with<br/>80 -90 C Hot Water</h2></div>
-        <div class="slider4 slider"><h1>Biopuremax™</h1><h2>Green Technology<br/>No Media<br/>No regeneration<br/>No flushing</h2></div>
-        <div class="slider5 slider"><h1>CBR</h1><h2>Continues<br/>Bioburden Reduction</h2></div>
+            <div>
+               <div class="slider-content">
+                  <h1>1sdfgsdf dfgsd gsd fg sdfg d<br/>sdfgsdfgsdfgsdfgsdfgsdfg dfgdsfg dfgsdf <br/> dfdsfgdf dfgdsfgsdfg dsfg <br/></h1>
+               </div>
+               <div class="slider-img">
+                  <img src="images/img2.jpg">
+               </div>
+            </div>
+
+
+
+            <div>
+               <div class="slider-content">
+                  <h1>2dfgsdf dfgsd gsd fg sdfg d<br/>sdfgsdfgsdfgsdfgsdfgsdfg dfgdsfg dfgsdf <br/> dfdsfgdf dfgdsfgsdfg dsfg <br/></h1>
+               </div>
+               <div class="slider-img">
+                  <img src="images/img2.jpg">
+               </div>
+            </div>
+
+
+
+            <div>
+               <div class="slider-content">
+                  <h1>3sdfgsdf dfgsd gsd fg sdfg d<br/>sdfgsdfgsdfgsdfgsdfgsdfg dfgdsfg dfgsdf <br/> dfdsfgdf dfgdsfgsdfg dsfg <br/></h1>
+               </div>
+               <div class="slider-img">
+                  <img src="images/img2.jpg">
+               </div>
+            </div>
+
+
+            <div>
+               <div class="slider-content">
+                  <h1>4sdfgsdf dfgsd gsd fg sdfg d<br/>sdfgsdfgsdfgsdfgsdfgsdfg dfgdsfg dfgsdf <br/> dfdsfgdf dfgdsfgsdfg dsfg <br/></h1>
+               </div>
+               <div class="slider-img">
+                  <img src="images/img2.jpg">
+               </div>
+            </div>
+
+         </div>
+      </div> 
+      </section>
+      <footer>
+         <div class="col-A">
+            <h1>Contact Us</h1>
+            <h2>USA</h2>
+            <p>99 Seaview Blvd., Port Washington,<br/>
+               New York 11050, USA.<br/>
+               Tel: +1 516 684 8200;<br/>
+               Fax: +1 516 684 8202<br/>
+               Email: info@biopuremax.com
+            </p>
+            <h1>ISRAEL</h1>
+            <p>
+               Phone: + 972-9-9716111<br/>
+               Fax: + 972-9-9716112<br/>
+               Email: info@biopuremax.com
+            </p>
+         </div>
+         <div class="col-B">
+            <h1>Biopuremax&trade;</h1>
+            <a href="#">Biopuremax, purified water system</a><br/>
+            <a href="#">About Us</a><br/>
+            <a href="#">USP purified water technology</a><br/>
+            <a href="#">Services</a><br/>
+            <a href="#">Project Reference</a><br/>
+            <a href="#">New & Events</a><br/>
+            <a href="#">Employees Access</a><br/>
+            <a href="#">Pharmaceutical water purification system</a>
+         </div>
+         <div class="col-C">
+            <h1>Technology</h1>
+            <ul>
+               <li><a href="#" >Biopuremax™ Technology</a></li>
+               <li><a href="#" >Water scale removal</a></li>
+               <li><a href="#" >Dechlorination System</a></li>
+               <li><a href="#" >Bioburden reduction technology</a></li>
+               <li><a href="#" >Commercial RO System</a></li>
+               <li><a href="#" >UV Water Treatment</a></li>
+               <li><a href="#" >WFI Water</a></li>
+               <li><a href="#" >USP Purified Water</a></li>
+               <li><a href="#" >Industrial Water Treatment</a></li>
+            </ul>
+         </div>
+         <div class="col-D">
+            <ul>
+               <li><a href="#" >About us</a></li>
+               <li><a href="#" >Our Technology</a></li>
+               <li><a href="#" >Services</a></li>
+               <li><a href="#" >Project Reference</a></li>
+               <li><a href="#" >Commercial RO System</a></li>
+               <li><a href="#" >News & Events</a></li>
+               <li><a href="#" >Contact us</a></li>
+            </ul>
+         </div>
+      </footer>
+      <script>
+         //slider bottom
+     
          
+        var childrenLength = $('#slideshow').children().length;
+         function sliderNext (){
+           
+           $("#slideshow > div:gt(0)").hide(); 
+           $('#slideshow > div:nth-child(2)')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+            
          
-        
+         }
+         
+         function sliderPrev (){
+          if(childrenLength===2){
+            childrenLength = $('#slideshow').children().length;
+          }
+           $("#slideshow > div:gt(0)").hide(); 
+           $('#slideshow > div:nth-child('+childrenLength+')')
+            .fadeOut(1000)
+            .prev()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+            childrenLength--; 
+         
+         }
 
-         <ul class="dots-sliders">
-            <li class="slider-non-active slider-active" id="slide_1"></li>
-            <li class="slider-non-active" id="slide_2"></li>
-            <li class="slider-non-active" id="slide_3"></li>
-            <li class="slider-non-active" id="slide_4"></li>
-            <li class="slider-non-active" id="slide_5"></li>
-        </ul>
-       </div>
+         $('.squares-slider li').live('click',function(e){
 
-      </div>
-
-
-    </section>
-
-
-		<div class="main-content container">
-			<h1>Main Headline</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis lobortis quam id venenatis. Integer eget pulvinar elit. Nunc magna mauris, sollicitudin eget ex quis, sagittis pretium velit. Morbi eget tortor vel massa iaculis tincidunt in eget nunc. Curabitur ornare faucibus fringilla. Praesent magna neque, auctor ac euismod sed, suscipit sed lorem. Curabitur euismod tellus et nibh condimentum mollis. Phasellus eleifend semper augue, ut feugiat orci fringilla non. Cras vel ultricies eros. Sed sed ante a ante gravida efficitur quis non dui. Fusce sagittis ullamcorper metus et tempus.</p>
-		</div>
-
-    <section class="all-in-one ">
-  <div class="all-in-one-container">
-
-    <div class="all-in-one-block block1">
-      <h1 class="header-all-in-one-block">Size BPM per client needs</h1>
-      <div class="sub-block">
-      <h1 class="number">1</h1>
-      <h2>Biopuremax™ unit can be designed to fit<br/>any water treatment system capacity</h2>
-      </div>
-    </div>
-    <div class="all-in-one-block block1">
-      <h1 class="header-all-in-one-block">Size BPM per client needs</h1>
-      <div class="sub-block">
-      <h1 class="number">2</h1>
-      <h2>Biopuremax system is manufactured<br/>according to controlled procedures and after<br/>costumer design approval</h2>
-      </div>
-    </div>
-    <div class="all-in-one-block block1">
-      <h1 class="header-all-in-one-block">FAT</h1>
-      <div class="sub-block">
-      <h1 class="number">3</h1>
-      <h2>Wet Factory Acceptance Test performed<br/>per a pre-approved protocol</h2>
-      </div>
-    </div>
-    <div class="all-in-one-block block1">
-      <h1 class="header-all-in-one-block">SITE INSTALLATION</h1>
-      <div class="sub-block">
-      <h1 class="number">4</h1>
-      <h2>The system is based on pretreatment and<br/>production skids that can be quickly installed<br/>and connected to utilities</h2>
-      </div>
-    </div>        
-    <div class="all-in-one-block block1">
-      <h1 class="header-all-in-one-block">SAT/COMMISSIONING</h1>
-      <div class="sub-block">
-      <h1 class="number">5</h1>
-      <h2>Biopuremax systems are supplied with full<br/>aSAT/commissioning package</h2>
-      </div>
-    </div>
-    <div class="all-in-one-block block1">
-      <h1 class="header-all-in-one-block">IQ-OQ-DQ VALIDATION</h1>
-      <div class="sub-block">
-      <h1 class="number">6</h1>
-      <h2>Full validation package for the system<br/>available</h2>
-      </div>
-    </div>        
+           var index = ($(this).index());
+           if(index===0) {index+1;};
+           $("#slideshow > div:gt(2)").hide();
+           $('#slideshow > div:nth-child('+index+')') 
+            .fadeOut(1000)
+            .prev()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+            console.log(index);
+         })
 
 
 
 
 
-  </div>
 
-
-
-    </section>
-
-
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<script type="text/javascript" src="js.js"></script>				
-</body>
+         
+         $('.right-arrow').bind('click',sliderNext);
+         $('.left-arrow').bind('click',sliderPrev);
+         
+      </script>
+      <script type="text/javascript" src="main.js"></script>				
+      <script>
+         var slideout = new Slideout({
+           'panel': document.getElementById('panel'),
+           'menu': document.getElementById('menu'),
+           'padding': 256,
+           'tolerance': 70
+         });
+         
+         // Toggle button
+         document.querySelector('.toggle-button').addEventListener('click', function() {
+           slideout.toggle();
+           $('#menu').addClass('on');
+         });
+      </script>
+      <script>
+         //Video section
+         $(function() {
+         $(".fancyboxIframe").fancybox({
+         maxWidth	: 900,
+         maxHeight	: 600,
+         fitToView	: false,
+         width		: '90%',
+         height		: '90%',
+         autoSize	: false,
+         closeClick	: false,
+         openEffect	: 'none',
+         closeEffect	: 'none',
+         iframe: {
+         scrolling : 'auto',
+         preload   : true
+         }
+         });
+         });
+      </script>
+   </body>
 </html>
